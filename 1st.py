@@ -1,7 +1,9 @@
-# This is a basic Python program
+# This is a basic Python progr
 
-def main():
-    print("Hello, World!")
+def lucky_numer(name):
+    number = len(name) * 9 
+    print("Hello", name, "your lucky number is", str(number))
 
-if __name__ == "__main__":
-    main()
+lucky_numer("John")
+lucky_numer("Alice")
+    
