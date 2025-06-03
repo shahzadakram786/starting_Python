@@ -27,3 +27,16 @@ def number_guessing_game():
                 print("Please enter a valid number.")
 
 number_guessing_game()
+
+
+def analyze_face(face_description):
+    emotions = ["happy", "sad", "angry", "surprised", "neutral"]
+    print("Analyzing face...")
+    if face_description.lower() in emotions:
+        print(f"The face shows a {face_description} emotion.")
+    else:
+        print("Unable to determine the emotion from the description.")
+
+# Example usage:
+analyze_face("happy")
+analyze_face("confused")
