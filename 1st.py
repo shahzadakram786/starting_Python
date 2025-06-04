@@ -13,3 +13,13 @@ def circle(radius):
     print(area)
 
 circle(5)
+
+
+
+
+def circle(radius):
+    pi = 3.14
+    area = pi * (radius ** 2)
+    print(area)
+
+circle(555)
